@@ -33,6 +33,10 @@
 - I created a Python notebook inside the BigQuery feature: <img width="932" alt="image" src="https://github.com/user-attachments/assets/d711c8db-2d22-448c-9d67-fb8a693a4d16">
 - When I tried to open a python notebook, it prompted the error message: <img width="911" alt="image" src="https://github.com/user-attachments/assets/551c9de7-8b00-4ed1-9a7a-f1c1ea337d30">
 - I opened a SQL query instead but it was also giving me a hard time loading a dataset into the query: <img width="797" alt="image" src="https://github.com/user-attachments/assets/28a0e70b-d8f0-4548-89bf-0c905e9f514f">
-- The issue with the SQL query was that it was going to retrieve the data from a bucket instead of the database I created. I clicked around to see if there was a way I could load the csv file directly into a database. I clicked the SQL option but it said I needed additional access: <img width="676" alt="image" src="https://github.com/user-attachments/assets/3c4f6200-1ad2-42b2-9d74-2e4a17d7258e">
+- The issue with the SQL query was that it was going to retrieve the data from a bucket instead of the database I created. I clicked around to see if there was a way I could load the csv file directly into a database.
+- I clicked the SQL option and was able to navigate my way back into the database I created and import a csv file: <img width="844" alt="image" src="https://github.com/user-attachments/assets/4b359821-d685-4010-b4f0-052ebfcd7ec9">
+- This ended up failing with the following error message because I realized there was no existing table under that name: <img width="691" alt="image" src="https://github.com/user-attachments/assets/bc8f3572-709c-4e75-97e3-59cb00e91070">
+
+- I once again tried to open BiQuery to see if I could open a new project but the run time was still giving me an issue
 
 
